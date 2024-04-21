@@ -15853,6 +15853,21 @@ html.rd-navbar-fixed-linked .page-header {
     right: 75px;
   }
 }
+.bgv
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9)
+{
+    .bgv
+    {
+        height: auto;
+        width: 100%;
+    }
+  }
 
 .swiper-slider.swiper-container-rtl .swiper-button-prev::before {
   content: "\f061";
