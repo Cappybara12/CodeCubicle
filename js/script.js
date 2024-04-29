@@ -1450,3 +1450,17 @@
 
 	} );
 }());
+
+// faq section
+
+document.querySelectorAll(".faq-item").forEach((item) => {
+	const header = item.querySelector(".faq-item-header");
+	header.addEventListener("click", () => {
+	  document.querySelectorAll(".faq-item").forEach((otherItem) => {
+		if (otherItem !== item && otherItem.classList.contains("open")) {
+		  otherItem.classList.remove("open");
+		}
+	  });
+	  item.classList.toggle("open");
+	});
+  });
