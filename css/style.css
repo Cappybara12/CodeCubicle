@@ -21302,7 +21302,7 @@ disabled look for disabled choices in the results dropdown
   display: flex;
   flex-direction: column;
   gap: 25px;
-  max-width: 1200px;
+  max-width: 1084px;
   min-width: 460px;
 }
 
