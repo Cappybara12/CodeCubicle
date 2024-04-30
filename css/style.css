@@ -21303,7 +21303,7 @@ disabled look for disabled choices in the results dropdown
   flex-direction: column;
   gap: 25px;
   max-width: 1200px;
-  min-width: 500px;
+  min-width: 460px;
 }
 
 .faq .faq-item {
