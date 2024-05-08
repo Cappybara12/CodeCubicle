@@ -73,6 +73,15 @@ const mentors = [
       insta: "",
     },
   },
+  {
+    name: "Akshay Kumar Sharma",
+    image: "images/mentors/akshay.jpg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/akshay-kumar-sharma-devvoyager",
+      insta: "",
+    },
+  },
 ];
 
 // Get the container element
