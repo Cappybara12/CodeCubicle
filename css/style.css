@@ -21295,15 +21295,15 @@ disabled look for disabled choices in the results dropdown
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 20px 100px 20px;
+  padding: 20px 30px 100px 20px;
 }
 
 .faq {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  max-width: 1200px;
-  min-width: 500px;
+  max-width: 1084px;
+  min-width: 383px;
 }
 
 .faq .faq-item {
