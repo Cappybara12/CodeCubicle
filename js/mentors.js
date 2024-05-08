@@ -1,109 +1,75 @@
 const mentors = [
   {
-    name: "Abdal Lalit",
-    image: "images/mentors/abdal_lalit.jpeg",
+    name: "Saksham Verma",
+    image: "images/mentors/IMG_6825.jpg",
     description: "",
     social: {
-      linkedin: "abdal-lalit",
+      linkedin:
+        "https://www.linkedin.com/in/saksham-verma-a9390b256/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       insta: "",
     },
   },
   {
-    name: "Abdal Lalit",
-    image: "images/mentors/abdal_lalit.jpeg",
+    name: "Tanmay Arora",
+    image: "images/mentors/tanmay.jpeg",
     description: "",
     social: {
-      linkedin: "abdal-lalit",
+      linkedin: "https://www.linkedin.com/in/tanmaycode1",
       insta: "",
     },
   },
   {
-    name: "Abdal Lalit",
-    image: "images/mentors/abdal_lalit.jpeg",
+    name: "Harshita Gupta",
+    image: "images/mentors/harshita.jpeg",
     description: "",
     social: {
-      linkedin: "abdal-lalit",
+      linkedin: "https://www.linkedin.com/in/harshita-gupta-03b6b125b",
       insta: "",
     },
   },
   {
-    name: "Abdal Lalit",
-    image: "images/mentors/abdal_lalit.jpeg",
+    name: "Mayank Mahajan",
+    image: "images/mentors/mayank.jpeg",
     description: "",
     social: {
-      linkedin: "abdal-lalit",
+      linkedin: "linkedin.com/mayankpmahajan",
+      insta: "",
+    },
+  },
+
+  {
+    name: "Rudra Pratap Dash",
+    image: "images/mentors/rudra.jpeg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/rudra-pratap-dash-b2ab16267",
       insta: "",
     },
   },
   {
-    name: "Abdal Lalit",
-    image: "images/mentors/abdal_lalit.jpeg",
+    name: "Arnav Kohli",
+    image: "images/mentors/arnav.jpeg",
     description: "",
     social: {
-      linkedin: "abdal-lalit",
+      linkedin: "https://www.linkedin.com/in/arnav-kohli",
       insta: "",
     },
   },
   {
-    name: "Abdal Lalit",
-    image: "images/mentors/abdal_lalit.jpeg",
+    name: "Archit Kohli",
+    image: "images/mentors/archit.jpeg",
     description: "",
     social: {
-      linkedin: "abdal-lalit",
+      linkedin: "https://www.linkedin.com/in/archit-kohli/",
       insta: "",
     },
   },
   {
-    name: "Abdal Lalit",
-    image: "images/mentors/abdal_lalit.jpeg",
+    name: "Siddharth Verma",
+    image: "images/mentors/siddharth.jpeg",
     description: "",
     social: {
-      linkedin: "abdal-lalit",
-      insta: "",
-    },
-  },
-  {
-    name: "Abdal Lalit",
-    image: "images/mentors/abdal_lalit.jpeg",
-    description: "",
-    social: {
-      linkedin: "abdal-lalit",
-      insta: "",
-    },
-  },
-  {
-    name: "Abdal Lalit",
-    image: "images/mentors/abdal_lalit.jpeg",
-    description: "",
-    social: {
-      linkedin: "abdal-lalit",
-      insta: "",
-    },
-  },
-  {
-    name: "Abdal Lalit",
-    image: "images/mentors/abdal_lalit.jpeg",
-    description: "",
-    social: {
-      linkedin: "abdal-lalit",
-      insta: "",
-    },
-  },
-  {
-    name: "Abdal Lalit",
-    image: "images/mentors/abdal_lalit.jpeg",
-    description: "",
-    social: {
-      linkedin: "abdal-lalit",
-      insta: "",
-    },
-  },
-  {
-    name: "Abdal Lalit",
-    image: "images/mentors/abdal_lalit.jpeg",
-    description: "",
-    social: {
-      linkedin: "abdal-lalit",
+      linkedin: "https://www.linkedin.com/in/siddharth-verma-53981a256",
       insta: "",
     },
   },
@@ -118,7 +84,8 @@ function createMentorCard(mentor) {
   card.classList.add("card-container");
 
   const imageContainer = document.createElement("a");
-  imageContainer.href = "/";
+  imageContainer.href = mentor.social.linkedin; // Set href to LinkedIn URL
+  imageContainer.target = "_blank"; // Open link in a new tab
   imageContainer.classList.add("hero-image-container");
 
   const image = document.createElement("img");
