@@ -10,6 +10,33 @@ const mentors = [
     },
   },
   {
+    name: "Akshay Kumar Sharma",
+    image: "images/mentors/akshay.jpg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/akshay-kumar-sharma-devvoyager",
+      insta: "",
+    },
+  },
+  {
+    name: "Aditya Singh",
+    image: "images/mentors/Aditya.jpeg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/adiii11/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      insta: "",
+    },
+  },
+  {
+    name: "Suhani Nagpal",
+    image: "images/mentors/Suhani.jpeg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/suhani-nagpal072/",
+      insta: "",
+    },
+  },
+  {
     name: "Tanmay Arora",
     image: "images/mentors/tanmay.jpeg",
     description: "",
@@ -73,15 +100,7 @@ const mentors = [
       insta: "",
     },
   },
-  {
-    name: "Akshay Kumar Sharma",
-    image: "images/mentors/akshay.jpg",
-    description: "",
-    social: {
-      linkedin: "https://www.linkedin.com/in/akshay-kumar-sharma-devvoyager",
-      insta: "",
-    },
-  },
+  
 ];
 
 // Get the container element
