@@ -10,6 +10,34 @@ const mentors = [
     },
   },
   {
+    name: "Akshay Kumar Sharma",
+    image: "images/mentors/akshay.jpg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/akshay-kumar-sharma-devvoyager",
+      insta: "",
+    },
+  },
+  {
+    name: "Aditya Singh",
+    image: "images/mentors/Aditya.jpg",
+    description: "",
+    social: {
+      linkedin:
+        "https://www.linkedin.com/in/adiii11/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      insta: "",
+    },
+  },
+  {
+    name: "Suhani Nagpal",
+    image: "images/mentors/Suhani.jpeg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/suhani-nagpal072/",
+      insta: "",
+    },
+  },
+  {
     name: "Tanmay Arora",
     image: "images/mentors/tanmay.jpeg",
     description: "",
@@ -70,15 +98,6 @@ const mentors = [
     description: "",
     social: {
       linkedin: "https://www.linkedin.com/in/siddharth-verma-53981a256",
-      insta: "",
-    },
-  },
-  {
-    name: "Akshay Kumar Sharma",
-    image: "images/mentors/akshay.jpg",
-    description: "",
-    social: {
-      linkedin: "https://www.linkedin.com/in/akshay-kumar-sharma-devvoyager",
       insta: "",
     },
   },
