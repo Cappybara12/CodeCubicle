@@ -20,10 +20,11 @@ const mentors = [
   },
   {
     name: "Aditya Singh",
-    image: "images/mentors/Aditya.jpeg",
+    image: "images/mentors/Aditya.jpg",
     description: "",
     social: {
-      linkedin: "https://www.linkedin.com/in/adiii11/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      linkedin:
+        "https://www.linkedin.com/in/adiii11/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       insta: "",
     },
   },
@@ -100,7 +101,6 @@ const mentors = [
       insta: "",
     },
   },
-  
 ];
 
 // Get the container element
