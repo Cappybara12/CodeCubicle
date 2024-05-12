@@ -19,6 +19,96 @@ const mentors = [
     },
   },
   {
+    name: "Akhil Ryan",
+    image: "images/mentors/Akhil.jpg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/im-akhil-kumar",
+      insta: "",
+    },
+  },
+  {
+    name: "Avanish Kumar Singh",
+    image: "images/mentors/Avinash.jpg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/avanishh",
+      insta: "",
+    },
+  },
+  {
+    name: "Chinmay Pant",
+    image: "images/mentors/chinmay.jpg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/chinmaypant",
+      insta: "",
+    },
+  },
+  {
+    name: "Harsh Mahajan",
+    image: "images/mentors/Harsh_Mahajan.jpg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/harsh-mahajan-2345black?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      insta: "",
+    },
+  },
+  {
+    name: "Yash Kataria",
+    image: "images/mentors/Yash_Kataria.jpg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/kataria-yash/",
+      insta: "",
+    },
+  },
+  {
+    name: "Mohammad Mudassir",
+    image: "images/mentors/Md.jpg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/mohammad-mudassir-b788a41ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      insta: "",
+    },
+  },
+  {
+    name: "Mustafa Azad",
+    image: "images/mentors/Mustafa.jpg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/mustafaazad03",
+      insta: "",
+    },
+  },
+  {
+    name: "Shivam Goyal",
+    image: "images/mentors/Shivam_Goyal.jpeg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/shivamgoyall/",
+      insta: "",
+    },
+  },
+  {
+    name: "Neha Gupta",
+    image: "images/mentors/Neha.jpg",
+    description: "",
+    social: {
+      linkedin: "https://www.linkedin.com/in/neha-gupta-696135174/",
+      insta: "",
+    },
+  },{
+    name: "Vani Mittal",
+    image: "images/mentors/VANI_MITTAL.jpg",
+    description: "",
+    social: {
+      linkedin: "https://linktr.ee/vanimittal",
+      insta: "",
+    },
+  },
+  
+  {
     name: "Aditya Singh",
     image: "images/mentors/Aditya.jpeg",
     description: "",
