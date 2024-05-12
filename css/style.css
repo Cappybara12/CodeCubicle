@@ -21406,3 +21406,8 @@ disabled look for disabled choices in the results dropdown
   line-height: 1.5;
   font-size: 16px;
 }
+.container .row-30 .col-sm-7 {
+  color: whitesmoke;
+  font-size: 1.5rem;  
+}
+
