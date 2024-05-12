@@ -6,6 +6,31 @@
 *
 * Contexts
 */
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.alfa-slab-one-regular {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.jaro {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jaro-a{
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 a:focus,
 button:focus {
   outline: none !important;
@@ -6550,7 +6575,6 @@ textarea.textarea-lg {
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
-  background-image: url(../images/quote-jean.png);
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
@@ -21295,15 +21319,15 @@ disabled look for disabled choices in the results dropdown
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 20px 100px 20px;
+  padding: 20px 30px 100px 20px;
 }
 
 .faq {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  max-width: 1200px;
-  min-width: 500px;
+  max-width: 1084px;
+  min-width: 383px;
 }
 
 .faq .faq-item {
@@ -21386,3 +21410,4 @@ disabled look for disabled choices in the results dropdown
   color: whitesmoke;
   font-size: 1.5rem;  
 }
+
